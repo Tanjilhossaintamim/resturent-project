@@ -1,0 +1,41 @@
+.header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+.navlink li a {
+    text-decoration: inherit;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+   
+}
+.navlink{
+    margin: 0 auto;
+}
+.navlink li{
+    margin: 0 20px;
+}
+
+.navlink li a:hover,
+.navlink li a.active {
+    color: orange;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    
+    background-color: rgb(82, 5, 82);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+}
